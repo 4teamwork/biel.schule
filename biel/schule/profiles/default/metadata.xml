@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1000</version>
+  <dependencies>
+      <dependency>profile-egov.core:default</dependency>
+      <dependency>profile-egov.core:module-layer</dependency>
+      <dependency>profile-plonetheme.onegov:default</dependency>
+  </dependencies>
+</metadata>

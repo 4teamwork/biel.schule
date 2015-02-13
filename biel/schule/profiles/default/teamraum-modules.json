@@ -1,0 +1,26 @@
+{
+    "Events": {
+        "active": true, 
+        "creators": []
+    }, 
+    "blog": {
+        "active": true, 
+        "creators": []
+    }, 
+    "cms": {
+        "active": true, 
+        "creators": []
+    }, 
+    "contact": {
+        "active": true, 
+        "creators": []
+    }, 
+    "form": {
+        "active": true, 
+        "creators": []
+    }, 
+    "subsite": {
+        "active": true, 
+        "creators": []
+    }
+}

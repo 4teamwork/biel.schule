@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:inflator="http://namespaces.zope.org/inflator"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="biel.schule">
+
+    <include package="z3c.autoinclude" file="meta.zcml" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="biel.schule:default"
+        directory="profiles/default"
+        description=""
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <include package="ftw.inflator" file="meta.zcml" />
+    <inflator:customize product="biel-bienne schule/ecole" />
+
+    <inflator:bundle
+        title="biel-bienne schule/ecole"
+        profiles="biel.schule:default" />
+
+</configure>
