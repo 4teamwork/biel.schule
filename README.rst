@@ -61,8 +61,8 @@ Runs with `Plone <http://www.plone.org/>`_ `4.3`.
 Links
 -----
 
-- Main github project repository: https://github.com/4teamwork/biel.schule
-- Issue tracker: https://github.com/4teamwork/biel.schule/issues
+- Github: https://github.com/4teamwork/biel.schule
+- Issues: https://github.com/4teamwork/biel.schule/issues
 - Continuous integration: https://jenkins.4teamwork.ch/search?q=biel.schule
 
 Copyright
